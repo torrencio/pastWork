@@ -1,0 +1,17 @@
+﻿Build started 20/03/2014 4:14:22 PM.
+     1>Project "c:\Users\Sophie\documents\visual studio 2012\Projects\CharacterClass\CharacterClass\CharacterClass.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt testCharClass.cpp
+         testCharClass.cpp
+     1>c:\users\sophie\documents\visual studio 2012\projects\characterclass\characterclass\testcharclass.cpp(60): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sophie\documents\visual studio 2012\projects\characterclass\characterclass\testcharclass.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sophie\documents\visual studio 2012\projects\characterclass\characterclass\testcharclass.cpp(38): warning C4102: 'std' : unreferenced label
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\sophie\documents\visual studio 2012\Projects\CharacterClass\Debug\CharacterClass.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\sophie\documents\visual studio 2012\Projects\CharacterClass\Debug\CharacterClass.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\sophie\documents\visual studio 2012\Projects\CharacterClass\Debug\CharacterClass.lib" /MACHINE:X86 Debug\Character.obj
+         Debug\testCharClass.obj
+         CharacterClass.vcxproj -> c:\users\sophie\documents\visual studio 2012\Projects\CharacterClass\Debug\CharacterClass.exe
+     1>Done Building Project "c:\Users\Sophie\documents\visual studio 2012\Projects\CharacterClass\CharacterClass\CharacterClass.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02

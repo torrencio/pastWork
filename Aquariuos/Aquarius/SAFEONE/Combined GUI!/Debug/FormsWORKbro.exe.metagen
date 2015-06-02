@@ -1,0 +1,81 @@
+  Project5.AbilitiesTable.resources - Embedded, ContainedInManifestFile, 
+  Project5.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly FormsWORKbro, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC.STLCLR, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class AbilitiesTable.AbilitiesTableForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Drawing.Color propColor1 : Public
+    System.Drawing.Color propcolor2 : Public
+    System.Windows.Forms.Label AbilityName : Public
+    System.Windows.Forms.Button button1 : Public
+    System.Windows.Forms.Label action_type : Public
+    System.Windows.Forms.Label power_usage : Public
+    System.Windows.Forms.Panel panel2 : Public
+    System.Windows.Forms.Panel panel3 : Public
+    System.Windows.Forms.CheckBox Used : Public
+    System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1 : Public
+Struct Ability: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String Name : Public
+    System.String Flavor : Public
+    powerUsage Power_Usage : Public
+    System.String KeyWords : Public
+    actionType Action_Type : Public
+    attackType Attack_Type : Public
+    System.String Range : Public
+    System.String Target : Public
+    System.String Attack : Public
+    System.String Hit : Public
+    System.String Effect : Public
+    System.String Additional_Effects : Public
+Class Abilities.AbilitiesForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.SplitContainer splitContainer1 : Public
+    System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1 : Public
+    cliext.vector<AbilitiesTable::AbilitiesTableForm ^> abilitytables IsByValue : Public, InitOnly
+    Int32 abilitycount : Public
+    Int32 prev : Public
+  Methods:
+    AbilityButton_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project5.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String fileName : Public
+    System.Windows.Forms.TabPage abilities_tab : Public
+    System.Windows.Forms.Label CurrentHealingSurges : Public
+    System.Windows.Forms.OpenFileDialog openFileDialog1 : Public
+  Methods:
+    head_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    neck_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    arms_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    rings_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    hands_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    main_hand_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    off_hand_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    waist_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    armour_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    feet_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    tattoo_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    ki_focus_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    Fill_values_Click(Object, EventArgs): PrivateScope, Public, HideBySig

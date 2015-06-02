@@ -1,0 +1,33 @@
+  Project5.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly FormsWORKbro, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Project5.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    head_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    neck_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    arms_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    rings_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    hands_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    main_hand_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    off_hand_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    waist_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    armour_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    feet_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    tattoo_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    ki_focus_details_LinkClicked(Object, LinkLabelLinkClickedEventArgs): PrivateScope, Public, HideBySig
+    Fill_values_Click(Object, EventArgs): PrivateScope, Public, HideBySig

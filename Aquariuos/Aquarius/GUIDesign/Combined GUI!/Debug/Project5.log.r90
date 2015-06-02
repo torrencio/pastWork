@@ -1,0 +1,15 @@
+﻿Build started 28/03/2014 6:18:07 PM.
+     1>Project "C:\Users\Owner\Documents\3rd Year\CISC 320\Project2\GUIDesign\Combined GUI!\Project5.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Owner\Documents\3rd Year\CISC 320\Project2\GUIDesign\Combined GUI!\Debug\FormsWORKbro.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Project5.AbilitiesTable.resources /ASSEMBLYRESOURCE:Debug\Project5.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Owner\Documents\3rd Year\CISC 320\Project2\GUIDesign\Combined GUI!\Debug\FormsWORKbro.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Abilities.obj
+         Debug\AbilitiesTable.obj
+         Debug\Character.obj
+         Debug\MyForm.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>LINK : error LNK2001: unresolved external symbol _Main
+     1>C:\Users\Owner\Documents\3rd Year\CISC 320\Project2\GUIDesign\Combined GUI!\Debug\FormsWORKbro.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Owner\Documents\3rd Year\CISC 320\Project2\GUIDesign\Combined GUI!\Project5.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.28
