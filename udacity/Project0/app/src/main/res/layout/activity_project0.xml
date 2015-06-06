@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Project0"
+    android:background="#ffd3d7ff">
+
+    <TextView android:text="@string/nanotitile" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:id="@+id/spot"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="27dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:background="#F08C35"
+        android:layout_marginBottom="10dp"
+        android:onClick="sendMessage"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scores App"
+        android:id="@+id/score"
+        android:layout_below="@+id/spot"
+        android:layout_alignLeft="@+id/spot"
+        android:layout_alignStart="@+id/spot"
+        android:layout_alignRight="@+id/spot"
+        android:layout_alignEnd="@+id/spot"
+        android:backgroundTint="#F08C35"
+        android:background="#F08C35"
+        android:layout_margin="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="sendMessage"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Library App"
+        android:id="@+id/library"
+        android:backgroundTint="#F08C35"
+        android:background="#F08C35"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/score"
+        android:layout_alignLeft="@+id/score"
+        android:layout_alignStart="@+id/score"
+        android:layout_alignRight="@+id/score"
+        android:layout_alignEnd="@+id/score"
+        android:layout_marginBottom="10dp"
+        android:onClick="sendMessage"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build It Bigger"
+        android:id="@+id/bigger"
+        android:backgroundTint="#F08C35"
+        android:background="#F08C35"
+        android:layout_below="@+id/library"
+        android:layout_alignRight="@+id/library"
+        android:layout_alignEnd="@+id/library"
+        android:layout_alignLeft="@+id/library"
+        android:layout_alignStart="@+id/library"
+        android:onClick="sendMessage"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XYZ Reader"
+        android:id="@+id/XYZ"
+        android:backgroundTint="#F08C35"
+        android:background="#F08C35"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/bigger"
+        android:layout_alignLeft="@+id/bigger"
+        android:layout_alignStart="@+id/bigger"
+        android:layout_alignRight="@+id/bigger"
+        android:layout_alignEnd="@+id/bigger"
+        android:onClick="sendMessage"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capstone App: MY App"
+        android:id="@+id/capstone"
+        android:backgroundTint="#F08C35"
+        android:background="#F08C35"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/XYZ"
+        android:layout_alignLeft="@+id/XYZ"
+        android:layout_alignStart="@+id/XYZ"
+        android:layout_alignRight="@+id/XYZ"
+        android:layout_alignEnd="@+id/XYZ"
+        android:onClick="sendMessage"
+        />
+
+</RelativeLayout>
